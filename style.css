@@ -20,3 +20,5 @@
 	color: yellow;
 	text-decoration: underline;
 }
+
+@media (min-width: 1024px){#letters{width: 25%;}}
