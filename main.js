@@ -6,7 +6,7 @@ Main.Lives = 6;
 Main.NumberInWordBank = 40;
 
 Main.Word = "test";
-Main.Word = "";
+Main.WordU = "";
 
 
 //Functions go here
@@ -40,33 +40,33 @@ Main.UpdateLetter = function(letter){
 		document.getElementById("lives").innerHTML = Main.Lives;
 	}
 
-	// if(Main.Lives == 6){
-	// 	document.getElementById('main_img').src='img/0.jpg'
-	// }
+	if(Main.Lives == 6){
+		document.getElementById('main_img').src='img/0.jpg'
+	}
 
-	// if(Main.Lives == 5){
-	// 	document.getElementById('main_img').src='img/1.jpg'
-	// }
+	if(Main.Lives == 5){
+		document.getElementById('main_img').src='img/1.jpg'
+	}
 
-	// if(Main.Lives == 4){
-	// 	document.getElementById('main_img').src='img/2.jpg'
-	// }
+	if(Main.Lives == 4){
+		document.getElementById('main_img').src='img/2.jpg'
+	}
 
-	// if(Main.Lives == 3){
-	// 	document.getElementById('main_img').src='img/3.jpg'
-	// }
+	if(Main.Lives == 3){
+		document.getElementById('main_img').src='img/3.jpg'
+	}
 
-	// if(Main.Lives == 2){
-	// 	document.getElementById('main_img').src='img/4.jpg'
-	// }
+	if(Main.Lives == 2){
+		document.getElementById('main_img').src='img/4.jpg'
+	}
 
-	// if(Main.Lives == 1){
-	// 	document.getElementById('main_img').src='img/5.jpg'
-	// }
+	if(Main.Lives == 1){
+		document.getElementById('main_img').src='img/5.jpg'
+	}
 
-	// if(Main.Lives == 0){
-	// 	document.getElementById('main_img').src='img/6.jpg'
-	// }
+	if(Main.Lives == 0){
+		document.getElementById('main_img').src='img/6.jpg'
+	}
 
 	Main.WordU = Main.WordUArray.join("");
 	document.getElementById("WORD").innerHTML = Main.WordU;
