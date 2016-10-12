@@ -3,7 +3,7 @@ Main.WordArray = [];
 Main.WordUArray = [];
 
 Main.Lives = 6;
-Main.NumberInWordBank = 10;
+Main.NumberInWordBank = 4;
 
 Main.Word = "test";
 Main.WordU = "";
