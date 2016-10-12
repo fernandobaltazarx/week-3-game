@@ -76,13 +76,13 @@ Main.UpdateLetter = function(letter){
 
 	if(Main.Word1 == Main.Word2){
 		alert("You Won! Loading A New Word");
-		// window.location.reload();
+		window.location.reload();
 	}
 
 	if(Main.Lives < 1){
 		document.getElementById("WORD").innerHTML == Main.Word1;
 		alert("You Have Run Out Of Lives, Please Try Again.");
-		// window.location.reload();
+		window.location.reload();
 	}
 }
 
